@@ -1,0 +1,271 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 100%;
+}
+#header {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+#first-header {
+	width: 100%;
+	font-weight: 200;
+	padding-top: 50px;
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+	color: hsl(229, 6%, 66%);
+}
+#second-header {
+	width: 100%;
+	font-weight: 600;
+	padding-top: 05px;
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+	color: hsl(234, 12%, 34%);
+
+}
+.third-header {
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	color: hsl(234, 12%, 34%);
+}
+.paragraph {
+	margin-top: 10px;
+	line-height: 1.5;
+	font-size: 15px;
+	color: hsl(229, 6%, 66%);/*#979797*/
+}
+.header-paragraph {
+	font-family: 'Lato', sans-serif;
+	color: hsl(229, 6%, 66%);  /*#979797*/
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.5;
+	padding-top: 20px;
+}
+.inner-wrapper {
+	width: 90%;
+	margin: auto;
+	padding-top: 30px;
+}
+.inner-wrapper2 {
+	width: 90%;
+	margin: auto;
+}
+.innerbox {
+	width: 80%;
+	margin: auto;
+}
+.supervisor {
+	width: 90%;
+	margin: auto;
+	border-top-style: solid;
+	border-top-color: hsl(180, 62%, 55%);
+	border-radius: 5px;
+	box-shadow: 10px 15px 30px #dfdfdf;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+.team-builder {
+	width: 90%;
+	margin: auto;
+	border-top-style: solid;
+	border-top-color: hsl(0, 78%, 62%);
+	border-radius: 5px;
+	box-shadow: 10px 15px 30px #dfdfdf;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+.karma {
+	width: 90%;
+	margin: auto;
+	border-top-style: solid;
+	border-top-color: hsl(34, 97%, 64%);
+	border-radius: 5px;
+	box-shadow: 10px 15px 30px #dfdfdf;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+.calculator {
+	width: 90%;
+	margin: auto;
+	border-top-style: solid;
+	border-top-color: hsl(212, 86%, 64%);
+	border-radius: 5px;
+	box-shadow: 10px 15px 30px #dfdfdf;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+img {
+	height: 50px;
+	width: 50px;
+}
+.svg {
+	padding: 25px 0;
+	margin-left: 230px;
+	margin-top: px;
+}
+.footer {
+	font-weight: lighter;
+	text-align: center;
+	margin: 50px 0 0;
+	text-decoration: none;
+	font-size: 14px;
+	color: hsl(229, 6%, 66%);  /*#757575*/
+}
+.footer a:hover {
+	color: grey;
+}
+
+@media only screen and (min-width: 768px) {
+	#header {
+	width: 60%;
+}
+.wrapper {
+	width: 700px;
+	margin: auto;
+}
+#first-header {
+	padding-top: 80px;
+	font-size: 27px;
+}
+.supervisor {
+	width: 310px;
+	margin: 0;
+	float: left;
+	position: relative;
+	left: 25px;
+}
+.team-builder {
+	width: 310px;
+	margin: 0;
+	float: right;
+	position: relative;
+	left: 40px;
+}
+.karma  {
+	width: 310px;
+	margin: auto;
+	float: left;
+	position: relative;
+	left: 25px;
+	top: 20px;
+}
+.calculator {
+	width: 310px;
+	margin: auto;
+	float: right;
+	position: relative;
+	left: 40px;
+	top: 20px;
+}
+.inner-wrapper {
+	padding-top: 70px;
+	margin: 0;
+}
+.inner-wrapper2 {
+	width: 90%;
+	padding-top: 100px;
+	margin: 0;
+}
+#second-header {
+	padding-top: 15px;
+	font-size: 27px;
+}
+.header-paragraph {
+	font-size: 17px;
+	line-height: 1.5;
+	padding-top: 25px;
+}
+.svg {
+	margin-left: 230px;
+}
+.footer {
+	position: relative;
+	top: 200px;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+	.wrapper {
+		width: 1000px;
+	}
+	#header {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+#first-header {
+	padding-top: 70px;
+	font-size: 30px;
+}
+#second-header {
+	padding-top: 05px;
+	font-size: 30px;
+}
+.header-paragraph {
+	font-size: 17px;
+	padding-top: 30px;
+}
+.inner-wrapper {
+	width: 90%;
+	padding-top: 30px;
+	margin: auto;
+	position: relative;
+	right: 75px;
+	top: 50px;
+}
+.inner-wrapper2 {
+	width: 90%;
+	margin: auto;
+	position: relative;
+	right: 75px;
+	top: 50px;
+}
+.innerbox {
+	width: 80%;
+	margin: auto;
+}
+.clearfix::after {
+	display: table;
+	content: '';
+	clear: both;
+}
+.supervisor {
+	width: 310px;
+	margin: 0;
+	position: relative;
+	top: 130px;
+}
+.team-builder {
+	width: 310px;
+	margin: 0;
+	position: relative;
+	left: -220px;
+}
+.karma  {
+	width: 310px;
+	margin: auto;
+	position: relative;
+	left: 370px;
+	top: -70px;
+}
+.calculator {
+	width: 310px;
+	margin: auto;
+	position: relative;
+	top: -190px;
+	left: 125px;
+}
+.svg {
+	margin-top: 20px;
+	padding-right: 10px;
+}
+.footer {
+	margin-top: 0;
+}
+
+}	
